@@ -30,6 +30,7 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 
+
 //My Routes
 app.use("/api", authRoutes);
 app.use("/api", userRoutes);
